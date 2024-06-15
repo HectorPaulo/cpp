@@ -1,0 +1,212 @@
+#include <iostream>
+#include <cstdlib>
+#include <cmath>
+#include <cstring>
+using namespace std;
+
+void menu_principal();
+void derivada();
+void integral();
+
+struct Fraccion {
+    int numerador;
+    int denominador;
+};
+
+void derivarPolinomio(Fraccion polinomio[], int grado, Fraccion derivada[]);
+void mostrarPolinomio(Fraccion polinomio[], int grado);
+void integrarPolinomio(Fraccion polinomio[], int grado, Fraccion resultado[]);
+Fraccion simplificarFraccion(Fraccion fraccion);
+Fraccion dividirFraccion(Fraccion fraccion1, Fraccion fraccion2);
+
+void centrarStr(const char* str, int y) {
+    int len = strlen(str);
+    int posx = (80 - len) / 2;
+    cout << "\033[" << y << ";" << posx << "H" << str;
+}
+
+void posxy(int x, int y) {
+    cout << "\033[" << y << ";" << x << "H";
+}
+
+void marcoxy(int h, int w, int x, int y) {
+    for (int i = 0; i < w; i++) {
+        posxy(x + i, y);
+        cout << "*";
+        posxy(x + i, y + h);
+        cout << "*";
+    }
+    for (int i = 0; i <= h; i++) {
+        posxy(x, y + i);
+        cout << "*";
+        posxy(x + w, y + i);
+        cout << "*";
+    }
+}
+
+int main() {
+    int opcion;
+    system("cls");
+    system("color 70");
+    menu_principal();
+    system("cls");
+    system("color 70");
+    centrarStr("¿QUE DESEA HACER?", 2);
+    centrarStr("0. Salir", 10);
+    posxy(13, 7); cout << "1. DERIVADA";
+    posxy(80, 7); cout << "2. INTEGRAL";
+    posxy(4, 25); cout << "Opcion: [";
+    posxy(16, 25); cout << "]";
+    posxy(14, 25); cin >> opcion;
+
+    if (opcion == 1) {
+        system("cls");
+        system("color 70");
+        marcoxy(27, 110, 0, 0);
+        derivada();
+    }
+    else if (opcion == 2) {
+        system("cls");
+        system("color 70");
+        marcoxy(27, 110, 0, 0);
+        integral();
+    }
+    else {
+        system("cls");
+        system("color 70");
+        marcoxy(27, 110, 0, 0);
+        centrarStr("OPCION INCORRECTA", 20);
+    }
+
+    return 0;
+}
+
+void menu_principal() {
+    system("cls");
+    system("color 70");
+    marcoxy(1, 1, 80, 2);
+    centrarStr("UNIVERSIDAD LA SALLE OAXACA", 2);
+    marcoxy(1, 4, 80, 18);
+    centrarStr("DERIVADA O INTEGRAL DE UN POLINOMIO", 6);
+    centrarStr("INGENIERIA EN SOFTWARE & SISTEMAS COMPUTACIONALES.", 7);
+    centrarStr("SEGUNDO SEMESTRE", 8);
+    centrarStr("CALCULO DIFERENCIAL E INTEGRAL.", 9);
+    centrarStr("MAYO 2023", 10);
+    centrarStr("Alumno:", 11);
+    centrarStr("Hector Adrian Paulo Vazquez", 13);
+    posxy(20, 19);
+    system("pause");
+}
+
+void derivada() {
+    system("cls");
+    system("color 70");
+    marcoxy(27, 110, 0, 0);
+    centrarStr("DERIVADA", 2);
+    int grado;
+    cout << "Ingrese el grado del polinomio: ";
+    cin >> grado;
+
+    Fraccion polinomio[grado + 1];
+
+    cout << "Ingrese los coeficientes del polinomio:" << endl;
+    for (int i = 0; i <= grado; ++i) {
+        cout << "Coeficiente x^" << grado - i << ": ";
+        cin >> polinomio[i].numerador;
+        polinomio[i].denominador = 1;
+    }
+
+    Fraccion derivada[grado];
+    derivarPolinomio(polinomio, grado, derivada);
+
+    cout << "La derivada del polinomio ingresado es:" << endl;
+    mostrarPolinomio(derivada, grado - 1);
+    system("pause");
+}
+
+void integral() {
+    system("cls");
+    system("color 70");
+    marcoxy(27, 110, 0, 0);
+    centrarStr("INTEGRAL", 2);
+    int grado;
+    cout << "Ingrese el grado del polinomio: ";
+    cin >> grado;
+
+    Fraccion polinomio[grado + 1];
+
+    cout << "Ingrese los coeficientes del polinomio:" << endl;
+    for (int i = 0; i <= grado; ++i) {
+        cout << "Coeficiente x^" << grado - i << ": ";
+        cin >> polinomio[i].numerador;
+        polinomio[i].denominador = 1;
+    }
+
+    Fraccion integral[grado + 2];
+    integrarPolinomio(polinomio, grado, integral);
+
+    cout << "La integral del polinomio ingresado es:" << endl;
+    mostrarPolinomio(integral, grado + 1);
+    system("pause");
+}
+
+Fraccion simplificarFraccion(Fraccion fraccion) {
+    int mcd = 1;
+    int menor = min(abs(fraccion.numerador), abs(fraccion.denominador));
+
+    for (int i = 2; i <= menor; ++i) {
+        if (fraccion.numerador % i == 0 && fraccion.denominador % i == 0) {
+            mcd = i;
+        }
+    }
+
+    fraccion.numerador /= mcd;
+    fraccion.denominador /= mcd;
+
+    if (fraccion.denominador < 0) {
+        fraccion.numerador = -fraccion.numerador;
+        fraccion.denominador = -fraccion.denominador;
+    }
+
+    return fraccion;
+}
+
+Fraccion dividirFraccion(Fraccion fraccion1, Fraccion fraccion2) {
+    Fraccion resultado;
+    resultado.numerador = fraccion1.numerador * fraccion2.denominador;
+    resultado.denominador = fraccion1.denominador * fraccion2.numerador;
+
+    return simplificarFraccion(resultado);
+}
+
+void derivarPolinomio(Fraccion polinomio[], int grado, Fraccion derivada[]) {
+    for (int i = 0; i < grado; ++i) {
+        derivada[i].numerador = polinomio[i].numerador * (grado - i);
+        derivada[i].denominador = polinomio[i].denominador;
+        derivada[i] = simplificarFraccion(derivada[i]);
+    }
+}
+
+void integrarPolinomio(Fraccion polinomio[], int grado, Fraccion resultado[]) {
+    for (int i = 0; i <= grado; ++i) {
+        resultado[i].numerador = polinomio[i].numerador;
+        resultado[i].denominador = polinomio[i].denominador * (grado - i + 1);
+        resultado[i] = simplificarFraccion(resultado[i]);
+    }
+    resultado[grado + 1].numerador = 1; // Constante de integración
+    resultado[grado + 1].denominador = 1;
+}
+
+void mostrarPolinomio(Fraccion polinomio[], int grado) {
+    for (int i = 0; i <= grado; ++i) {
+        cout << polinomio[i].numerador << "/" << polinomio[i].denominador;
+        if (i < grado) {
+            cout << "x^" << grado - i;
+        }
+        if (i < grado) {
+            cout << " + ";
+        }
+    }
+
+    cout << " + C" << endl;
+}

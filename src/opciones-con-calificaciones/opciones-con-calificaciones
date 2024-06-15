@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n, calificacion, suma_mayores = 0, suma_menores = 0, contador_mayores = 0, contador_menores = 0, calificacion_maxima = 0, calificacion_minima = 10;
+    double porcentaje_mayores, porcentaje_menores;
+    
+    cout << "¿Cuántas calificaciones quiere evaluar? ";
+    cin >> n;
+    
+    int i = 0;
+    while (i < n) {
+        cout << "Ingrese la calificacion " << i + 1 << ": ";
+        cin >> calificacion;
+        
+        if (calificacion >= 6) {
+            suma_mayores += calificacion;
+            contador_mayores++;
+        } else {
+            suma_menores += calificacion;
+            contador_menores++;
+        }
+        
+        if (calificacion > calificacion_maxima) {
+            calificacion_maxima = calificacion;
+        }
+        
+        if (calificacion < calificacion_minima) {
+            calificacion_minima = calificacion;
+        }
+        
+        i++;
+    }
+    
+    porcentaje_mayores = (static_cast<double>(contador_mayores) / n) * 100.0;
+    porcentaje_menores = (static_cast<double>(contador_menores) / n) * 100.0;
+    
+    cout << "Suma de calificaciones aprobatorias: " << suma_mayores << endl;
+    cout << "Suma de calificaciones reprobatorias: " << suma_menores << endl;
+    cout << "Número de alumnos aprobados: " << contador_mayores << endl;
+    cout << "Número de alumnos reprobados: " << contador_menores << endl;
+    cout << "Calificacion mayor: " << calificacion_maxima << endl;
+    cout << "Calificacion menor: " << calificacion_minima << endl;
+    cout << "Porcentaje de alumnos aprobados: " << porcentaje_mayores << "%" << endl;
+    cout << "Porcentaje de alumnos reprobados: " << porcentaje_menores << "%" << endl;
+    
+    return 0;
+}
+
