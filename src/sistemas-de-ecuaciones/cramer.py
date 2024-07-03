@@ -12,18 +12,18 @@ def solucion_sistema_2x2(x1,x2,y1,y2,resultado_primera_ecuacion,resultado_segund
     return x, y
 
 #--------Funcion para resolver sistemas de ecuaciones 3x3---------
-def solucion_sistema_3x3(x1,x2,x3,y1,y2,y3,resultado_primera_ecuacion,resultado_segunda_ecuacion,c3,z1,z2,z3):
+def solucion_sistema_3x3(x1,x2,x3,y1,y2,y3,resultado_primera_ecuacion,resultado_segunda_ecuacion,resultado_tercera_ecuacion,z1,z2,z3):
     x,y,z = False, False, False
     positivo = 0; negativo = 0
-    positivo = (x1 * y2 * c3) + (y1 * resultado_segunda_ecuacion * x3) + (resultado_primera_ecuacion * x2 * y3)
-    negativo = (-1 * x3 * y2 * resultado_primera_ecuacion) + (-1 * y3 * resultado_segunda_ecuacion * x1) + (-1 * c3 * x2 * y1)
+    positivo = (x1 * y2 * resultado_tercera_ecuacion) + (y1 * resultado_segunda_ecuacion * x3) + (resultado_primera_ecuacion * x2 * y3)
+    negativo = (-1 * x3 * y2 * resultado_primera_ecuacion) + (-1 * y3 * resultado_segunda_ecuacion * x1) + (-1 * resultado_tercera_ecuacion * x2 * y1)
     delta = positivo + negativo
     if delta != 0:
-        positivo = (z1 * y2 * c3) + (y1 * resultado_segunda_ecuacion * z3) + (resultado_primera_ecuacion * z2 * y3)
-        negativo = (-1 * z3 * y2 * resultado_primera_ecuacion) + (-1 * y3 * resultado_segunda_ecuacion * z1) + (-1 * c3 * z2 * y1)
+        positivo = (z1 * y2 * resultado_tercera_ecuacion) + (y1 * resultado_segunda_ecuacion * z3) + (resultado_primera_ecuacion * z2 * y3)
+        negativo = (-1 * z3 * y2 * resultado_primera_ecuacion) + (-1 * y3 * resultado_segunda_ecuacion * z1) + (-1 * resultado_tercera_ecuacion * z2 * y1)
         x = (positivo + negativo) / delta
-        positivo = (x1 * z2 * c3) + (z1 * resultado_segunda_ecuacion * x3) + (resultado_primera_ecuacion * x2 * z3)
-        negativo = (-1 * x3 * z2 * resultado_primera_ecuacion) + (-1 * z3 * resultado_segunda_ecuacion * x1) + (-1 * c3 * x2 * z1)
+        positivo = (x1 * z2 * resultado_tercera_ecuacion) + (z1 * resultado_segunda_ecuacion * x3) + (resultado_primera_ecuacion * x2 * z3)
+        negativo = (-1 * x3 * z2 * resultado_primera_ecuacion) + (-1 * z3 * resultado_segunda_ecuacion * x1) + (-1 * resultado_tercera_ecuacion * x2 * z1)
         y = (positivo + negativo) / delta
         positivo = (x1 * y2 * z3) + (y1 * z2 * x3) + (z1 * x2 * y3)
         negativo = (-1 * x3 * y2 * z1) + (-1 * y3 * z2 * x1) + (-1 * z3 * x2 * y1)
@@ -53,7 +53,7 @@ def main():
                 if x: print("\nSolucion: \nx = ",x,"\ny = ",y)
             elif opcion == 2:
                 print("\nSistema de 3 ecuaciones lineales con 3 incongnitas")
-                print("Estructura:\nx1x + y1y + resultado_primera_ecuacionz = z1\nx2x + y2y + resultado_segunda_ecuacionz = z2\nx3x + y3y + c3z = z3\n")
+                print("Estructura:\nx1x + y1y + resultado_primera_ecuacionz = z1\nx2x + y2y + resultado_segunda_ecuacionz = z2\nx3x + y3y + resultado_tercera_ecuacionz = z3\n")
                 x1 = float(input("Ecuacion 1:\nx1 = "))
                 y1 = float(input("y1 = "))
                 resultado_primera_ecuacion = float(input("resultado_primera_ecuacion = "))
@@ -64,9 +64,9 @@ def main():
                 z2 = float(input("z2 = "))
                 x3 = float(input("Ecuacion 3:\nx3 = "))
                 y3 = float(input("y3 = "))
-                c3 = float(input("c3 = "))
+                resultado_tercera_ecuacion = float(input("resultado_tercera_ecuacion = "))
                 z3 = float(input("z3 = "))
-                x,y,z = solucion_sistema_3x3(x1,x2,x3,y1,y2,y3,resultado_primera_ecuacion,resultado_segunda_ecuacion,c3,z1,z2,z3)
+                x,y,z = solucion_sistema_3x3(x1,x2,x3,y1,y2,y3,resultado_primera_ecuacion,resultado_segunda_ecuacion,resultado_tercera_ecuacion,z1,z2,z3)
                 if x: print("\nSolucion: \nx = ",x,"\ny = ",y,"\nz = ",z)
             os.system('pause')
     except:
