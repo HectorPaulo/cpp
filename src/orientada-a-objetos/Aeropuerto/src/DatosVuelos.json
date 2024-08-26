@@ -1,0 +1,628 @@
+{
+    "vuelos": [
+        {
+            "destino": "Oaxaca",
+            "duracion": 2.5,
+            "horaLlegada": "2:35",
+            "horaSalida": 6.0,
+            "id": 1,
+            "origen": "CDMX",
+            "pasajeros": [
+                {
+                    "apellido": "Paulo",
+                    "direccion": "Oaxaca, México",
+                    "discapacidad": false,
+                    "edad": 20,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2004-01-01",
+                    "id": 1,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Hector Adrian"
+                },
+                {
+                    "apellido": "Mendieta",
+                    "direccion": "Guadalajara, Mexico",
+                    "discapacidad": true,
+                    "edad": 45,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2000-01-01",
+                    "id": 2,
+                    "nacionalidad": "Colombiana",
+                    "nombre": "Diego Saas"
+                },
+                {
+                    "apellido": "Bolaños",
+                    "direccion": "Monterrey, Mexico",
+                    "discapacidad": false,
+                    "edad": 30,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2005-01-01",
+                    "id": 3,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Victor Alejandro"
+                },
+                {
+                    "apellido": "García",
+                    "direccion": "Chiapas, México",
+                    "discapacidad": false,
+                    "edad": 70,
+                    "equipaje": {
+                        "altura": 10.0,
+                        "ancho": 30.0,
+                        "idPasajero": 3,
+                        "peso": 2.2,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "2004-01-01",
+                    "id": 4,
+                    "nacionalidad": "Venezolana",
+                    "nombre": "Carlos Miguel"
+                },
+                {
+                    "apellido": "Ramirez",
+                    "direccion": "Chihuahua, Mexico",
+                    "discapacidad": true,
+                    "edad": 45,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2000-01-01",
+                    "id": 5,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Luis Ángel"
+                },
+                {
+                    "apellido": "Daniel",
+                    "direccion": "Monterrey, Mexico",
+                    "discapacidad": false,
+                    "edad": 30,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2005-01-01",
+                    "id": 6,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Daniel"
+                },
+                {
+                    "apellido": "Cabeza de Vaca",
+                    "direccion": "Oaxaca, México",
+                    "discapacidad": false,
+                    "edad": 20,
+                    "equipaje": {
+                        "altura": 10.0,
+                        "ancho": 30.0,
+                        "idPasajero": 3,
+                        "peso": 2.2,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "2004-01-01",
+                    "id": 7,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Alexa"
+                },
+                {
+                    "apellido": "Brena",
+                    "direccion": "Guadalajara, Mexico",
+                    "discapacidad": true,
+                    "edad": 45,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2000-01-01",
+                    "id": 8,
+                    "nacionalidad": "Colombiana",
+                    "nombre": "Favián"
+                },
+                {
+                    "apellido": "Barrita",
+                    "direccion": "Monterrey, Mexico",
+                    "discapacidad": false,
+                    "edad": 30,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2005-01-01",
+                    "id": 9,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Josué"
+                },
+                {
+                    "apellido": "Cordero",
+                    "direccion": "Monterrey, Mexico",
+                    "discapacidad": false,
+                    "edad": 30,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2005-01-01",
+                    "id": 10,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Regina"
+                }
+            ],
+            "terminal": {
+                "capacidad": 100,
+                "claveTerminal": "T198",
+                "disponible": true
+            },
+            "tripulacion": {
+                "antiguedad": 0,
+                "apellido": "Lopez",
+                "fechaNacimiento": "1980-02-15",
+                "genero": "Femenino",
+                "horasVuelo": 5000,
+                "idTripulación": 2,
+                "nombre": "Maria",
+                "turno": "Tarde"
+            },
+            "vehiculoAereo": {
+                "antiguedad": 10,
+                "capacidad": 150,
+                "color": "Azul",
+                "distancia": 8000,
+                "estado": "Operativo",
+                "llantas": 6,
+                "matricula": "KLM345",
+                "modelo": "Boeing 777",
+                "serie": "SER987",
+                "tanque": 5000,
+                "tiempoAire": 2000
+            }
+        },
+        {
+            "destino": "Guadalajara",
+            "duracion": 3.0,
+            "horaLlegada": "12:35",
+            "horaSalida": 10.0,
+            "id": 2,
+            "origen": "Oaxaca",
+            "pasajeros": [
+                {
+                    "apellido": "Ríos",
+                    "direccion": "Toluca, México",
+                    "discapacidad": true,
+                    "edad": 31,
+                    "equipaje": {
+                        "altura": 20.0,
+                        "ancho": 30.0,
+                        "idPasajero": 4,
+                        "peso": 3.5,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "1993-09-17",
+                    "id": 21,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Mariana"
+                },
+                {
+                    "apellido": "Delgado",
+                    "direccion": "Mexicali, México",
+                    "discapacidad": false,
+                    "edad": 42,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1982-01-29",
+                    "id": 22,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Ricardo"
+                },
+                {
+                    "apellido": "Mendoza",
+                    "direccion": "Oaxaca, México",
+                    "discapacidad": true,
+                    "edad": 38,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1986-04-13",
+                    "id": 23,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Patricia"
+                },
+                {
+                    "apellido": "Navarro",
+                    "direccion": "Chihuahua, México",
+                    "discapacidad": false,
+                    "edad": 27,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1997-06-21",
+                    "id": 24,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Francisco"
+                },
+                {
+                    "apellido": "Cruz",
+                    "direccion": "Durango, México",
+                    "discapacidad": true,
+                    "edad": 35,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1989-12-08",
+                    "id": 25,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Ana"
+                },
+                {
+                    "apellido": "Moreno",
+                    "direccion": "Guadalajara, México",
+                    "discapacidad": false,
+                    "edad": 40,
+                    "equipaje": {
+                        "altura": 20.0,
+                        "ancho": 30.0,
+                        "idPasajero": 4,
+                        "peso": 3.5,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "1984-05-25",
+                    "id": 26,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Enrique"
+                },
+                {
+                    "apellido": "Jiménez",
+                    "direccion": "Aguascalientes, México",
+                    "discapacidad": true,
+                    "edad": 23,
+                    "equipaje": {
+                        "altura": 20.0,
+                        "ancho": 30.0,
+                        "idPasajero": 4,
+                        "peso": 3.5,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "2001-08-12",
+                    "id": 27,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Elena"
+                },
+                {
+                    "apellido": "Ortiz",
+                    "direccion": "Saltillo, México",
+                    "discapacidad": false,
+                    "edad": 29,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1995-07-30",
+                    "id": 28,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Roberto"
+                },
+                {
+                    "apellido": "García",
+                    "direccion": "Torreón, México",
+                    "discapacidad": true,
+                    "edad": 33,
+                    "equipaje": {
+                        "altura": 150.0,
+                        "ancho": 30.0,
+                        "idPasajero": 5,
+                        "peso": 8.2,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1991-11-22",
+                    "id": 29,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Lorena"
+                },
+                {
+                    "apellido": "Pacheco",
+                    "direccion": "Irapuato, México",
+                    "discapacidad": false,
+                    "edad": 24,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2000-03-08",
+                    "id": 30,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Oscar"
+                }
+            ],
+            "terminal": {
+                "capacidad": 500,
+                "claveTerminal": "T298",
+                "disponible": true
+            },
+            "tripulacion": {
+                "antiguedad": 0,
+                "apellido": "Perez",
+                "fechaNacimiento": "1975-06-12",
+                "genero": "Masculino",
+                "horasVuelo": 5000,
+                "idTripulación": 1,
+                "nombre": "Juan",
+                "turno": "Mañana"
+            },
+            "vehiculoAereo": {
+                "antiguedad": 10,
+                "capacidad": 150,
+                "color": "Blanco",
+                "distancia": 8000,
+                "estado": "Operativo",
+                "llantas": 6,
+                "matricula": "MAT123",
+                "modelo": "Boeing 747",
+                "serie": "SER987",
+                "tanque": 5000,
+                "tiempoAire": 2000
+            }
+        },
+        {
+            "destino": "Monterrey",
+            "duracion": 1.5,
+            "horaLlegada": "12:35",
+            "horaSalida": 15.0,
+            "id": 3,
+            "origen": "Guadalajara",
+            "pasajeros": [
+                {
+                    "apellido": "Vázquez",
+                    "direccion": "Tijuana, México",
+                    "discapacidad": true,
+                    "edad": 28,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1996-02-15",
+                    "id": 11,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Marta"
+                },
+                {
+                    "apellido": "Fernández",
+                    "direccion": "Ciudad Juárez, México",
+                    "discapacidad": false,
+                    "edad": 34,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1990-08-23",
+                    "id": 12,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Luis"
+                },
+                {
+                    "apellido": "González",
+                    "direccion": "Puebla, México",
+                    "discapacidad": true,
+                    "edad": 27,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1997-05-30",
+                    "id": 13,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Laura"
+                },
+                {
+                    "apellido": "Martínez",
+                    "direccion": "San Luis Potosí, México",
+                    "discapacidad": false,
+                    "edad": 40,
+                    "equipaje": {
+                        "altura": 10.0,
+                        "ancho": 30.0,
+                        "idPasajero": 3,
+                        "peso": 2.2,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "1984-12-12",
+                    "id": 14,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Jorge"
+                },
+                {
+                    "apellido": "Torres",
+                    "direccion": "Aguascalientes, México",
+                    "discapacidad": true,
+                    "edad": 33,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1991-06-18",
+                    "id": 15,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Sofia"
+                },
+                {
+                    "apellido": "Hernández",
+                    "direccion": "Cancún, México",
+                    "discapacidad": false,
+                    "edad": 22,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "2002-11-02",
+                    "id": 16,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Antonio"
+                },
+                {
+                    "apellido": "García",
+                    "direccion": "Querétaro, México",
+                    "discapacidad": true,
+                    "edad": 29,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 1,
+                        "peso": 6.7,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1995-03-05",
+                    "id": 17,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Verónica"
+                },
+                {
+                    "apellido": "Pérez",
+                    "direccion": "Guadalajara, México",
+                    "discapacidad": false,
+                    "edad": 37,
+                    "equipaje": {
+                        "altura": 10.0,
+                        "ancho": 30.0,
+                        "idPasajero": 3,
+                        "peso": 2.2,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "1987-07-15",
+                    "id": 18,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Pedro"
+                },
+                {
+                    "apellido": "Sánchez",
+                    "direccion": "Mérida, México",
+                    "discapacidad": true,
+                    "edad": 32,
+                    "equipaje": {
+                        "altura": 10.0,
+                        "ancho": 30.0,
+                        "idPasajero": 3,
+                        "peso": 2.2,
+                        "tipoEquipaje": "Bolsa de Mano"
+                    },
+                    "fechaNacimiento": "1992-10-20",
+                    "id": 19,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Gabriela"
+                },
+                {
+                    "apellido": "Morales",
+                    "direccion": "Monterrey, México",
+                    "discapacidad": false,
+                    "edad": 26,
+                    "equipaje": {
+                        "altura": 100.0,
+                        "ancho": 30.0,
+                        "idPasajero": 2,
+                        "peso": 7.5,
+                        "tipoEquipaje": "Maleta"
+                    },
+                    "fechaNacimiento": "1998-04-10",
+                    "id": 20,
+                    "nacionalidad": "Mexicana",
+                    "nombre": "Esteban"
+                }
+            ],
+            "terminal": {
+                "capacidad": 1200,
+                "claveTerminal": "T573",
+                "disponible": false
+            },
+            "tripulacion": {
+                "antiguedad": 0,
+                "apellido": "Garcia",
+                "fechaNacimiento": "1990-01-01",
+                "genero": "Masculino",
+                "horasVuelo": 5000,
+                "idTripulación": 4,
+                "nombre": "Luis",
+                "turno": "Manana"
+            },
+            "vehiculoAereo": {
+                "antiguedad": 10,
+                "capacidad": 250,
+                "color": "Amarillo",
+                "distancia": 6000,
+                "estado": "Operativo",
+                "llantas": 6,
+                "matricula": "MARK34",
+                "modelo": "Airbus 330",
+                "serie": "SER600",
+                "tanque": 4000,
+                "tiempoAire": 3000
+            }
+        }
+    ]
+}
