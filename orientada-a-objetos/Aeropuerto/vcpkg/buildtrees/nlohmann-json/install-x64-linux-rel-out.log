@@ -1,0 +1,66 @@
+Change Dir: '/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-rel'
+
+Run Build Command(s): /usr/bin/ninja -v -v -j17 install
+[0/1] cd /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-rel && /usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/json_fwd.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/ordered_map.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/byte_container_with_subtype.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/json.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/call_std
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/call_std/begin.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/call_std/end.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/void_t.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/detected.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/type_traits.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/cpp_future.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/std_fs.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/identity_tag.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/meta/is_sax.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/value_t.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/json_ref.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/macro_unscope.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/macro_scope.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/exceptions.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/abi_macros.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/string_concat.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/output
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/output/serializer.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/output/binary_writer.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/output/output_adapters.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/iteration_proxy.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/internal_iterator.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/iter_impl.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/primitive_iterator.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/iterators/iterator_traits.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/hash.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/json_pointer.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/conversions
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/conversions/from_json.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/conversions/to_json.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/conversions/to_chars.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/string_escape.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/json_custom_base_class.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/binary_reader.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/lexer.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/position_t.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/parser.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/input_adapters.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/detail/input/json_sax.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/adl_serializer.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/thirdparty
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/thirdparty/hedley
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/thirdparty/hedley/hedley.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/pkgconfig/nlohmann_json.pc
+

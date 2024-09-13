@@ -1,0 +1,12 @@
+-- Downloading https://github.com/nlohmann/json/archive/v3.11.3.tar.gz -> nlohmann-json-v3.11.3.tar.gz...
+-- Extracting source /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/downloads/nlohmann-json-v3.11.3.tar.gz
+-- Using source at /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/src/v3.11.3-434e7fbc3e.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-linux
+-- Building x64-linux-dbg
+-- Building x64-linux-rel
+-- Fixing pkgconfig file: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/pkgconfig/nlohmann_json.pc
+-- Fixing pkgconfig file: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/debug/share/pkgconfig/nlohmann_json.pc
+-- Installing: /home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/packages/nlohmann-json_x64-linux/share/nlohmann-json/copyright
+-- Downloading https://github.com/NixOS/patchelf/releases/download/0.14.5/patchelf-0.14.5-x86_64.tar.gz -> patchelf-0.14.5-x86_64.tar.gz...
+-- Performing post-build validation

@@ -1,0 +1,2 @@
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/detect_compiler/x64-linux-rel/CMakeFiles/edit_cache.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/detect_compiler/x64-linux-rel/CMakeFiles/rebuild_cache.dir

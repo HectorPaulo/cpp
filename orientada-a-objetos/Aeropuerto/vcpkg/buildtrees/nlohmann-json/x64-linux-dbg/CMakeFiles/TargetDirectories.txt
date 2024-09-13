@@ -1,0 +1,6 @@
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/edit_cache.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/rebuild_cache.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/list_install_components.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/install.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/install/local.dir
+/home/paulo/Documentos/trabajos/creados/LASALLE/ingenieria-software/vcpkg/buildtrees/nlohmann-json/x64-linux-dbg/CMakeFiles/install/strip.dir
