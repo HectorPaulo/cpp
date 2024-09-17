@@ -442,4 +442,3 @@ void marco (int x, int y, int col, int ren){
 	posxy(colum,i);cout<<c;	
 	}
 }
-
